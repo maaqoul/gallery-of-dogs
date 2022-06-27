@@ -63,6 +63,7 @@ function App() {
           <button
             type="button"
             className="btn btn-info mx-2"
+            name="Search"
             disabled={!selectedBreed}
             onClick={searchByBreed}
           >
